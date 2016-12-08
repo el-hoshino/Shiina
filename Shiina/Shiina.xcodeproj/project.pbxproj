@@ -10,6 +10,8 @@
 		16991FB01DF94AD400FC4A8A /* Shiina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16991FA61DF94AD400FC4A8A /* Shiina.framework */; };
 		16991FB51DF94AD400FC4A8A /* ShiinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16991FB41DF94AD400FC4A8A /* ShiinaTests.swift */; };
 		16991FB71DF94AD400FC4A8A /* Shiina.h in Headers */ = {isa = PBXBuildFile; fileRef = 16991FA91DF94AD400FC4A8A /* Shiina.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16991FCB1DF94C1C00FC4A8A /* SKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16991FC91DF94C1C00FC4A8A /* SKNode.swift */; };
+		16991FCC1DF94C1C00FC4A8A /* SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16991FCA1DF94C1C00FC4A8A /* SKScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		16991FAF1DF94AD400FC4A8A /* ShiinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16991FB41DF94AD400FC4A8A /* ShiinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiinaTests.swift; sourceTree = "<group>"; };
 		16991FB61DF94AD400FC4A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16991FC91DF94C1C00FC4A8A /* SKNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKNode.swift; sourceTree = "<group>"; };
+		16991FCA1DF94C1C00FC4A8A /* SKScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				16991FA91DF94AD400FC4A8A /* Shiina.h */,
 				16991FAA1DF94AD400FC4A8A /* Info.plist */,
+				16991FC91DF94C1C00FC4A8A /* SKNode.swift */,
+				16991FCA1DF94C1C00FC4A8A /* SKScene.swift */,
 			);
 			path = Shiina;
 			sourceTree = "<group>";
@@ -149,6 +155,7 @@
 					16991FA51DF94AD400FC4A8A = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = KC8N9BMQJY;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					16991FAE1DF94AD400FC4A8A = {
@@ -198,6 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16991FCC1DF94C1C00FC4A8A /* SKScene.swift in Sources */,
+				16991FCB1DF94C1C00FC4A8A /* SKNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +331,7 @@
 		16991FBB1DF94AD400FC4A8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KC8N9BMQJY;
@@ -334,6 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.Shiina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +352,7 @@
 		16991FBC1DF94AD400FC4A8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KC8N9BMQJY;
@@ -360,6 +372,7 @@
 		16991FBE1DF94AD400FC4A8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KC8N9BMQJY;
 				INFOPLIST_FILE = ShiinaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +385,7 @@
 		16991FBF1DF94AD400FC4A8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KC8N9BMQJY;
 				INFOPLIST_FILE = ShiinaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +414,7 @@
 				16991FBC1DF94AD400FC4A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16991FBD1DF94AD400FC4A8A /* Build configuration list for PBXNativeTarget "ShiinaTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +423,7 @@
 				16991FBF1DF94AD400FC4A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

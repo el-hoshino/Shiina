@@ -12,6 +12,7 @@
 		16991FB71DF94AD400FC4A8A /* Shiina.h in Headers */ = {isa = PBXBuildFile; fileRef = 16991FA91DF94AD400FC4A8A /* Shiina.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16991FCB1DF94C1C00FC4A8A /* SKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16991FC91DF94C1C00FC4A8A /* SKNode.swift */; };
 		16991FCC1DF94C1C00FC4A8A /* SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16991FCA1DF94C1C00FC4A8A /* SKScene.swift */; };
+		16991FDD1DF97B0600FC4A8A /* Eltaso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16991FDC1DF97B0600FC4A8A /* Eltaso.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		16991FB61DF94AD400FC4A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16991FC91DF94C1C00FC4A8A /* SKNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKNode.swift; sourceTree = "<group>"; };
 		16991FCA1DF94C1C00FC4A8A /* SKScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKScene.swift; sourceTree = "<group>"; };
+		16991FDC1DF97B0600FC4A8A /* Eltaso.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eltaso.framework; path = "../../Cabbage/Cabbage/DerivedData/Cabbage/Build/Products/Debug-iphoneos/Eltaso.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16991FDD1DF97B0600FC4A8A /* Eltaso.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +63,7 @@
 				16991FA81DF94AD400FC4A8A /* Shiina */,
 				16991FB31DF94AD400FC4A8A /* ShiinaTests */,
 				16991FA71DF94AD400FC4A8A /* Products */,
+				16991FDB1DF97B0600FC4A8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +94,14 @@
 				16991FB61DF94AD400FC4A8A /* Info.plist */,
 			);
 			path = ShiinaTests;
+			sourceTree = "<group>";
+		};
+		16991FDB1DF97B0600FC4A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16991FDC1DF97B0600FC4A8A /* Eltaso.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

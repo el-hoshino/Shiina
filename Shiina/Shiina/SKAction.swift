@@ -11,7 +11,7 @@ import Eltaso
 
 extension SKAction {
 	
-	public static func moveUnderSineWave(around center: CGFloat, inDimension dimension: CGPoint.Dimension, amplitude: CGFloat, frequency: CGFloat, phase: CGFloat = 0, repeatingTime: Int? = nil) -> SKAction {
+	public static func moveThroughSineWave(around center: CGFloat, inDimension dimension: CGPoint.Dimension, amplitude: CGFloat, frequency: CGFloat, phase: CGFloat = 0, repeatingCount: Int? = nil) -> SKAction {
 		
 		let waveDuration = 1 / TimeInterval(frequency)
 		let angularFrequency = CGFloat.pi * 2 * frequency
@@ -29,8 +29,8 @@ extension SKAction {
 		}
 		
 		let repeatedAction: SKAction
-		if let repeatingTime = repeatingTime {
-			repeatedAction = SKAction.repeat(waveAction, count: repeatingTime)
+		if let repeatingCount = repeatingCount {
+			repeatedAction = SKAction.repeat(waveAction, count: repeatingCount)
 			
 		} else {
 			repeatedAction = SKAction.repeatForever(waveAction)

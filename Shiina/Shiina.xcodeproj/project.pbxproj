@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162D38341E024A1F00CA9D7A /* SKAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D38331E024A1F00CA9D7A /* SKAction.swift */; };
 		16991FB01DF94AD400FC4A8A /* Shiina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16991FA61DF94AD400FC4A8A /* Shiina.framework */; };
 		16991FB51DF94AD400FC4A8A /* ShiinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16991FB41DF94AD400FC4A8A /* ShiinaTests.swift */; };
 		16991FB71DF94AD400FC4A8A /* Shiina.h in Headers */ = {isa = PBXBuildFile; fileRef = 16991FA91DF94AD400FC4A8A /* Shiina.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		162D38331E024A1F00CA9D7A /* SKAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKAction.swift; sourceTree = "<group>"; };
 		16991FA61DF94AD400FC4A8A /* Shiina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shiina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16991FA91DF94AD400FC4A8A /* Shiina.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shiina.h; sourceTree = "<group>"; };
 		16991FAA1DF94AD400FC4A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				16991FAA1DF94AD400FC4A8A /* Info.plist */,
 				16991FC91DF94C1C00FC4A8A /* SKNode.swift */,
 				16991FCA1DF94C1C00FC4A8A /* SKScene.swift */,
+				162D38331E024A1F00CA9D7A /* SKAction.swift */,
 			);
 			path = Shiina;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			files = (
 				16991FCC1DF94C1C00FC4A8A /* SKScene.swift in Sources */,
 				16991FCB1DF94C1C00FC4A8A /* SKNode.swift in Sources */,
+				162D38341E024A1F00CA9D7A /* SKAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

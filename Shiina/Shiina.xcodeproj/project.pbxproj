@@ -14,6 +14,7 @@
 		16991FCB1DF94C1C00FC4A8A /* SKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16991FC91DF94C1C00FC4A8A /* SKNode.swift */; };
 		16991FCC1DF94C1C00FC4A8A /* SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16991FCA1DF94C1C00FC4A8A /* SKScene.swift */; };
 		16991FDD1DF97B0600FC4A8A /* Eltaso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16991FDC1DF97B0600FC4A8A /* Eltaso.framework */; };
+		16E89F6B1E079F79006461EE /* LinkablePhysicsBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E89F6A1E079F79006461EE /* LinkablePhysicsBody.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		16991FC91DF94C1C00FC4A8A /* SKNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKNode.swift; sourceTree = "<group>"; };
 		16991FCA1DF94C1C00FC4A8A /* SKScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKScene.swift; sourceTree = "<group>"; };
 		16991FDC1DF97B0600FC4A8A /* Eltaso.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eltaso.framework; path = "../../Cabbage/Cabbage/DerivedData/Cabbage/Build/Products/Debug-iphoneos/Eltaso.framework"; sourceTree = "<group>"; };
+		16E89F6A1E079F79006461EE /* LinkablePhysicsBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkablePhysicsBody.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				16991FC91DF94C1C00FC4A8A /* SKNode.swift */,
 				16991FCA1DF94C1C00FC4A8A /* SKScene.swift */,
 				162D38331E024A1F00CA9D7A /* SKAction.swift */,
+				16E89F6A1E079F79006461EE /* LinkablePhysicsBody.swift */,
 			);
 			path = Shiina;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				16991FCC1DF94C1C00FC4A8A /* SKScene.swift in Sources */,
 				16991FCB1DF94C1C00FC4A8A /* SKNode.swift in Sources */,
 				162D38341E024A1F00CA9D7A /* SKAction.swift in Sources */,
+				16E89F6B1E079F79006461EE /* LinkablePhysicsBody.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
